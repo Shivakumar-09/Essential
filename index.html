@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Department of Food and Public Distribution, India - Ensuring essentials for all citizens.">
+    <meta name="keywords"
+        content="Food Distribution, Public Distribution System, NFSA, India, Blood Donation, Book Donation, Toy Donation">
+    <title>Department of Food and Public Distribution, India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="https://ibb.co/B2H00xhP"><img src="https://i.ibb.co/5hXbbyQ9/Essentials.png"></a>
+                <h1>Essential's</h1>
+            </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Ensuring Essential's for All</h2>
+                <p>Committed to providing access to affordable and nutritious food, healthcare, and education to every
+                    citizen of India.</p><br></br>
+                <a href="#donation-features" class="btn">DONATE NOW</a>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2>Our Key Initiatives</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <img src="pds.jpg" alt="Public Distribution System">
+                        <h3>Donation of clothes(DTC)</h3>
+                        <p>Donation of clothes</p>
+                    </article>
+                    <article class="service-card">
+                        <img src="nfsa.jpg" alt="National Food Security Act">
+                        <h3>National Food Security Act (NFSA)</h3>
+                        <p>Legal framework for providing food security to the population.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="donation-features" class="donation-features">
+            <div class="container">
+                <h2>Join Us in Making a Difference</h2>
+                <div class="donation-grid">
+                    <article class="donation-card">
+                        <img src="blood.jpg" alt="Blood Donation">
+                        <h3>Blood Donation</h3>
+                        <p>Donate blood and save lives.
+                            Find nearby blood donation camps and register today.</p>
+                        <a href="#" class="btn">Donate Blood</a>
+                    </article> 
+                    <article class="donation-card">
+                        <img src="book.jpg" alt="Old Books Donation">
+                        <h3>Old Books Donation</h3>
+                        <p>Donate your old books to help underprivileged children gain access to education.</p>
+                        <a href="#" class="btn">Donate Books</a>
+                    </article>
+                    <article class="donation-card">
+                        <img src="toy.jpg" alt="Old Toys Donation">
+                        <h3>Old Toys Donation</h3>
+                        <p>Bring joy to children by donating your old toys.
+                            Spread happiness today!</p>
+                        <a href="#" class="btn">Donate Toys</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+       <div class="container">
+    <div class="card">
+      <h1>Contact & Donation Pickup</h1>
+      <p>Fill out the form below, and we'll contact you to collect your <strong>food, clothes, or books</strong>.</p>
+
+      <form action="https://formspree.io/f/xkgvpjja" method="POST" id="contactForm">
+        <div class="row">
+          <div>
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input id="name" name="name" type="text" placeholder="Shiva Kumar" required />
+          </div>
+          <div>
+            <label for="email">Email <span class="req">*</span></label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label for="phone">Phone Number <span class="req">*</span></label>
+            <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" required />
+          </div>
+          <div>
+            <label for="type">Donation Type <span class="req">*</span></label>
+            <select id="type" name="donation_type" required>
+              <option value="">Choose…</option>
+              <option>Food</option>
+              <option>Clothes</option>
+              <option>Books</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="address">Pickup Address <span class="req">*</span></label>
+          <textarea id="address" name="address" rows="3" placeholder="Street, Area, City, Pincode" required></textarea>
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Any special notes or instructions"></textarea>
+        </div>
+
+        <div class="actions">
+          <button class="btn" type="submit">Send Email</button>
+          <a class="btn secondary" id="mailtoBtn" href="#">Use Mail App</a>
+        </div>
+        <div id="success" class="success">Thanks! Your message has been sent.</div>
+      </form>
+    </div>
+  </div>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Together, We Can Make a Difference</h2>
+                <p>Your contributions help us provide essential resources to those in need.</p>
+                <a href="#donation-features" class="btn">Get Involved</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>©
+                2025 Department of Food and Public Distribution, Government of India.
+                All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
