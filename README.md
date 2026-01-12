@@ -54,16 +54,27 @@ Formspree – Serverless email form handling
 Font Awesome – Scalable vector icons
 
 📁 Project Structure
+
 Essentials/
+
 ├── index.html        # Main application entry point
+
 ├── style.css         # Stylesheets and responsive design
+
 ├── script.js         # Interactive logic and form handling
+
 ├── blood.jpg         # Blood donation visual
+
 ├── book.jpg          # Book donation visual
+
 ├── toy.jpg           # Toy donation visual
+
 ├── pds.jpg           # Public Distribution System visual
+
 ├── nfsa.jpg          # National Food Security Act visual
+
 ├── Essentials.png    # Project logo
+
 └── README.md         # Project documentation
 
 🚀 Getting Started
@@ -125,18 +136,6 @@ Email & SMS notifications
 Backend integration (Node.js / Firebase)
 
 Multi-language support
-
-🤝 Contribution
-
-Contributions are welcome!
-
-Fork the repository
-
-Create a new branch
-
-Commit your changes
-
-Submit a Pull Request
 
 📄 License
 
