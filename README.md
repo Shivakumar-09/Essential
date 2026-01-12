@@ -10,12 +10,16 @@ A responsive web application focused on social welfare and donations, inspired b
 📩 Pickup Request: Integrated contact form for easy scheduling.
 🎨 Modern Design: Responsive UI with mobile-friendly layout.
 ✉️ Email Integration: Powered by Formspree with direct mail options.
+
+
 🛠️ Tech Stack
 HTML5: Semantic structure.
 CSS3: Custom styling and responsive design.
 JavaScript (Vanilla): DOM manipulation and form logic.
 Formspree: Serverless form handling.
 Font Awesome: scalable vector icons.
+
+
 📁 Project Structure
 text
 Essentials/
@@ -29,6 +33,9 @@ Essentials/
 ├── nfsa.jpg          # Asset: NFSA visual
 ├── Essentials.png    # Project Logo
 └── README.md         # Project Documentation
+
+
+
 🚀 Getting Started
 1. Clone the Repository
 bash
